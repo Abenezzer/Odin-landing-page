@@ -87,3 +87,58 @@ nav ul {
   width: 500px;
   /* flex-basis: 350px; */
 }
+
+.info {
+  margin: 50px auto;
+}
+
+.info h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.info .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+}
+
+.card p {
+  text-align: center;
+  font-size: 16px;
+  /* font-weight: lighter; */
+  color: #666;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  margin: 50px auto;
+  padding: 50px 0;
+}
+
+.quote blockquote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote cite {
+  font-size: 18px;
+  font-style: normal;
+  color: #666;
+  text-align: end;
+}
